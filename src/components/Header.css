@@ -1,0 +1,42 @@
+
+.navbar{
+position: fixed;
+transition: 1s;
+}
+.navbar-brand{
+    color: #fff;
+    font-size: 45px;
+    font-family: Germania;
+    cursor: pointer;
+}
+.icon-bar{
+background-color: #000;
+
+}
+.nav{
+    font-family: Lithos Pro;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.nav li{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.nav li:after{
+content: '';
+display: block;
+  border-bottom: 2px solid #38fd07;
+  transform: scaleX(0);
+  transition: .2s ease-in-out;
+}
+.nav li:hover:after{
+   transform: scaleX(1);
+
+}
+h3{
+    font-size: 27px;
+    color: aliceblue;
+    }
+
